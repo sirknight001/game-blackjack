@@ -1,0 +1,45 @@
+* {
+    text-align: center;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(table.png);
+    background-size: cover;
+}
+
+h1 {
+    color: goldenrod;
+    text-align: center;
+    font-size: 80px;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-family: cursive;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:active {
+    transition: transform 0.2s ease-in-out 0ms;
+    transform: scale(1.25);
+}
+
+#instruction {
+    font-size: 20px;
+}
